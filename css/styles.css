@@ -374,11 +374,13 @@ img {
   font-size: 12px;
 }
 
+.regform-input:hover,
 .regform-input:focus {
   border-color: var(--accent-bgc);
   transition: border-color 250ms var(--timing-function);
 }
 
+.regform-input:hover + .regform-icon,
 .regform-input:focus + .regform-icon {
   fill: var(--accent-bgc);
   transition: fill 250ms var(--timing-function);
