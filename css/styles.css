@@ -328,7 +328,8 @@ img {
   cursor: pointer;
 }
 
-.modal-close-icon:hover {
+.modal-close-icon:hover,
+.modal-close-icon:focus {
   fill: var(--accent-bgc);
   transition: fill 250ms var(--timing-function);
 }
@@ -460,7 +461,8 @@ img {
   color: #ffffff;
 }
 
-.regform-button:hover {
+.regform-button:hover,
+.regform-button:focus {
   cursor: pointer;
   background-color: var(--accent-bgc-hover);
   transition: background-color 250ms var(--timing-function);
@@ -834,7 +836,8 @@ img {
   text-decoration: none;
 }
 
-.project-link:hover {
+.project-link:hover,
+.project-link:focus {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12), 0 4px 4px 0 rgba(0, 0, 0, 0.06),
     1px 4px 6px 0 rgba(0, 0, 0, 0.16);
 }
