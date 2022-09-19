@@ -448,6 +448,12 @@ img {
   opacity: 0;
 }
 
+.regform-checkbox:focus + .regform-checked-icon {
+  outline: 1px solid var(--dark-txt-color);
+  outline-offset: 1px;
+  border-radius: 1px;
+}
+
 .regform-button {
   width: 200px;
   height: 50px;
