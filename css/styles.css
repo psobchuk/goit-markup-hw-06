@@ -326,10 +326,6 @@ img {
 .modal-close-btn:hover,
 .modal-close-btn:focus {
   cursor: pointer;
-}
-
-.modal-close-icon:hover,
-.modal-close-icon:focus {
   fill: var(--accent-bgc);
   transition: fill 250ms var(--timing-function);
 }
@@ -353,12 +349,16 @@ img {
 .regform-field {
   position: relative;
   display: block;
+  margin-bottom: 10px;
+}
+
+.regform-field.mb20 {
+  margin-bottom: 20px;
 }
 
 .regform-label {
   display: flex;
   justify-content: flex-start;
-  margin-top: 10px;
   margin-bottom: 4px;
   font-size: 12px;
   color: rgba(117, 117, 117, 1);
@@ -375,12 +375,6 @@ img {
   font-size: 12px;
 }
 
-.regform-input:hover,
-.regform-input:focus {
-  border-color: var(--accent-bgc);
-  transition: border-color 250ms var(--timing-function);
-}
-
 .regform-input:hover + .regform-icon,
 .regform-input:focus + .regform-icon {
   fill: var(--accent-bgc);
@@ -389,11 +383,21 @@ img {
 
 .regform-text {
   width: 100%;
+  height: 120px;
   padding: 12px 16px;
   font-size: 12px;
   line-height: calc(14 / 12);
   letter-spacing: 0.01em;
-  margin-bottom: 20px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.regform-input:hover,
+.regform-input:focus,
+.regform-text:hover,
+.regform-text:focus {
+  border-color: var(--accent-bgc);
+  transition: border-color 250ms var(--timing-function);
 }
 
 .regform-text::placeholder {
