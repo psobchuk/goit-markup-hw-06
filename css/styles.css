@@ -92,6 +92,14 @@ img {
   padding-bottom: 94px;
 }
 
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
 /* Хедер */
 .header {
   border-bottom: 1px solid #ececec;
@@ -349,11 +357,6 @@ img {
 .regform-field {
   position: relative;
   display: block;
-  margin-bottom: 10px;
-}
-
-.regform-field.mb20 {
-  margin-bottom: 20px;
 }
 
 .regform-label {
